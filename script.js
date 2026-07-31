@@ -7,7 +7,6 @@
 
 document.querySelectorAll('.btn').forEach(btn => {
     btn.addEventListener('click', function(e) {
-        e.preventDefault();
 
         // Если кнопка уже активна — ничего не делаем
         if (this.classList.contains('active')) return;
